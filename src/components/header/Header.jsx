@@ -1,9 +1,11 @@
+"use client"
 import React from "react";
 import styles from "./navbar.module.css";
 import Image from "next/image";
 import Link from "next/link";
+import ThemeToggle from "@/components/themeToggle/themeToggle";
 // import AuthLinks from "../authLinks/AuthLinks";
-// import ThemeToggle from "../themeToggle/ThemeToggle";
+
 
 const Header = () => {
   return (
@@ -27,6 +29,7 @@ const Header = () => {
           About
         </Link>
         {/* <AuthLinks /> */}
+       <ThemeToggle />
       </div>
     </div>
   );
