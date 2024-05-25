@@ -28,8 +28,11 @@ const Header = () => {
         <Link href="/" className={styles.link}>
           About
         </Link>
+        <Link href="/login" className={styles.link}>
+          Login
+        </Link>
         {/* <AuthLinks /> */}
-       <ThemeToggle />
+        <ThemeToggle />
       </div>
     </div>
   );
